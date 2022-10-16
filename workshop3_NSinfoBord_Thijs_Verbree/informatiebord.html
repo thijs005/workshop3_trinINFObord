@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Trein informatie bord</title>
+    <link rel="stylesheet" href="assets/style/css/style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div class="linksbalk">
+            <div class="spoor">
+                <div class="spoormini"></div>
+                <p>spoor</p> <strong>13</strong> <h6>b</h6>
+            </div>
+        </div>
+
+        <div class="midden">
+            <div class="tijd"><p id="clock"></p></div>
+            <div class="intercity">
+                <p>intercity</p><img id="logo" src="../workshop3_NSinfoBord_Thijs_Verbree/assets/images/NSlogo.png" alt="NS logo">
+            </div>
+            <div class="bestemming">
+                <h2>Deventer</h2>
+                <p>via Rotterdam Alexan, Gouda,<br>Utrecht Centraal, Amesfoort<br>en Apeldoorn</p>
+            </div>
+            <div class="volgendetrein_een"><p style="margin-top: 0px; margin-left: 10px;">21:35 Intercity Leeuwarden rijdt niet</p></div>
+            <div class="volgendetrein_twee"><p style="margin-top: 0px; margin-left: 10px;">09:20 Intercity Deventer</p></div>
+        </div>
+
+        <div class="rechtsbalk">
+            <img src="../workshop3_NSinfoBord_Thijs_Verbree/assets/images/klok.png" alt="NS klok">
+        </div>
+        
+    </div>
+    <script>
+        var myVar = setInterval(function() {
+  myTimer();
+}, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+}
+    </script>
+</body>
+</html>

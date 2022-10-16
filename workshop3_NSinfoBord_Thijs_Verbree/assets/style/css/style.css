@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+#container {
+    border: 4px solid black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 920px;
+    height: 340px;
+    background-color: #091d35;
+}
+div {
+    border: 1px solid black;
+}
+
+.linksbalk {
+    width: 140px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+    background-color: #00387b;
+}
+.spoor {
+    width: 106px;
+    height: 106px;
+    float: left;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: rgb(250, 239, 239);
+    border-color: #00387b;
+}
+.spoor p {
+    font-family: Impact, fantasy;
+    float: top left;
+    margin-top: -20px;
+    margin-left: 26px;
+    font-size: 12px;
+    color: #00387b;
+}
+.spoor strong {
+    font-size: 70px;
+    font-family: monospace;
+    color: #00387b;
+}
+.spoor h6 {
+    margin-top: -78px;
+    margin-left: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #00387b;
+}
+.spoormini {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #00387b;
+    border-style: none;
+}
+
+.midden {
+    padding: 0;
+    margin: 22px;
+    background-color: aliceblue;
+}
+.tijd {
+    width: 248px;
+    height: 50px;
+    float: left;
+    background-color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    top: 25px;
+    border-style: none;
+}
+#clock {
+    margin: 0;
+    margin-left: 5px;
+    color: #00387b;
+}
+.intercity {
+    width: 248px;
+    height: 50px;
+    padding: 0;
+    float: right;
+    background-color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: #00387b;
+    border-style: none;
+}
+#logo {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 140px;
+}
+.intercity p {
+    margin-top: 0;
+}
+
+.bestemming {
+    width: 500px;
+    height: 175px;
+    margin: 0;
+    background-color: aliceblue;
+    border-style: hidden;
+}
+.bestemming h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #00387b;
+    padding: 0;
+}
+.bestemming p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00387b;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-top: -45px;
+}
+.volgendetrein_een {
+    height: 35px;
+    width: 500px;
+    background-color: #003373;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 22px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-color: aliceblue;
+}
+.volgendetrein_twee {
+    height: 35px;
+    width: 500px;
+    background-color: #003373;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    margin-top: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 22px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-color: aliceblue;
+}
+
+.rechtsbalk {
+    width: 245px;
+    height: 340px;
+    background-color: cornsilk;
+}
+.rechtsbalk img {
+    height: 205px;
+    width: 205px;
+    margin: 20px;
+}
+.klok {
+    margin: 20px;
+    height: 205px;
+    width: 205px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
